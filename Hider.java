@@ -49,6 +49,9 @@ public class Hider extends HiderSupport {
 		// The previous lily pad updates to the current lily pad *before* it moves.
 		_previousLilyPad = this.getCurrentLilyPad();
 
+		this.setCurrentLilyPad(this.getCurrentLilyPad());
+
+
 		//TODO STEP 3: Make the hider move to its new lily pad
 
 		//TODO STEP 4: Change the color of the cloak to match the lily pad

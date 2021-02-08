@@ -21,6 +21,7 @@ public class App extends Application {
     new LeapFrogFrame(stage);
     //Don't change the line above! It instantiates the Hide-and-Seek
     //graphical user interface (GUI).
+    new Game();
 
     //TODO STEP 2: Instantiate top-level object
   }
