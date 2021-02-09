@@ -40,7 +40,6 @@ public class Hider extends HiderSupport {
 		this.putOnCloak(_newCS15Cloak);
 
 
-
 		//TODO STEP 4: Initialize and put on the cloak
 	}
 
@@ -65,6 +64,10 @@ public class Hider extends HiderSupport {
 		//TODO STEP 3: Make the hider move to its new lily pad
 
 		//TODO STEP 4: Change the color of the cloak to match the lily pad
+	}
+
+	public CS15LilyPad getPreviousLilyPad() {
+		return _previousLilyPad;
 	}
 
 
