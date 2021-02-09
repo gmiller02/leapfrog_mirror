@@ -35,9 +35,9 @@ public class Hider extends HiderSupport {
 
 		// We've also initialized this instance variable for you.
 		_previousLilyPad = null;
-		CS15Cloak cloak = new CS15Cloak();
+		_newCS15Cloak = new CS15Cloak();
 
-		this.putOnCloak(cloak);
+		this.putOnCloak(_newCS15Cloak);
 
 
 
@@ -66,6 +66,7 @@ public class Hider extends HiderSupport {
 
 		//TODO STEP 4: Change the color of the cloak to match the lily pad
 	}
+
 
 	//TODO 5: Create a getter method to get the previous lily pad
 }
