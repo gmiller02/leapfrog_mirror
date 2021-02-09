@@ -37,7 +37,7 @@ public class Hider extends HiderSupport {
 		_previousLilyPad = null;
 		CS15Cloak cloak = new CS15Cloak();
 
-		this.putOnCloak(CS15Cloak cloak);
+		this.putOnCloak(cloak);
 
 
 
@@ -55,8 +55,11 @@ public class Hider extends HiderSupport {
 	public void moveAndHide(CS15LilyPad newLilyPad) {
 		// The previous lily pad updates to the current lily pad *before* it moves.
 		_previousLilyPad = this.getCurrentLilyPad();
-
 		this.setCurrentLilyPad(newLilyPad);
+
+		_previousLilyPad.getColor();
+		_newCS15Cloak.setColor(newLilyPad.getColor());
+
 
 
 		//TODO STEP 3: Make the hider move to its new lily pad
