@@ -23,7 +23,7 @@ public class App extends Application {
     //graphical user interface (GUI).
     new Game();
 
-    //TODO STEP 2: Instantiate top-level object
+    // Containment: instantiating Game in App
   }
 
   /**

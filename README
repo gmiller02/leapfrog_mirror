@@ -1,0 +1,18 @@
+leapfrog README
+
+Hand-in: final hand in
+
+Overview: My leapfrog has four classes: App, Game, Hider, and Seeker.
+App contains an instance of Game.
+Game's constructor contains an instance of both Hider and Seeker.
+I set up an association between Hider and Seeker so that Seeker knows about an instance of Hider.
+
+Design choices: I used containment to instantiate Game in App, and instantiated Hider and Seeker in Game.
+Containment allows the outer classes to access other classes as components of itself; so by putting Hider and Seeker
+in Game I was able to make them components of the same Game.
+I used association by creating an instance of Hider which Seeker knew about. This was necessary because Seeker needed
+to know about the previous location of Hider in order to move to that location.
+
+Known bugs: none
+
+Hours: I spent 4 1/2 hours on this project.

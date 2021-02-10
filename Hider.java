@@ -24,7 +24,8 @@ public class Hider extends HiderSupport {
 	// of the hider's previous lily pad.
 	private CS15LilyPad _previousLilyPad;
 	public CS15Cloak _newCS15Cloak;
-	//TODO STEP 4: Declare instance variable for cloak
+
+	// declared new instance variable for a cloak
 
 	/**
 	 * This is the Hider's constructor, which constructs an instance of the Hider.
@@ -36,11 +37,11 @@ public class Hider extends HiderSupport {
 		// We've also initialized this instance variable for you.
 		_previousLilyPad = null;
 		_newCS15Cloak = new CS15Cloak();
+		// initialized the cloak
 
 		this.putOnCloak(_newCS15Cloak);
 
 
-		//TODO STEP 4: Initialize and put on the cloak
 	}
 
 	/**
@@ -60,16 +61,10 @@ public class Hider extends HiderSupport {
 		_newCS15Cloak.setColor(newLilyPad.getColor());
 
 
-
-		//TODO STEP 3: Make the hider move to its new lily pad
-
-		//TODO STEP 4: Change the color of the cloak to match the lily pad
 	}
 
 	public CS15LilyPad getPreviousLilyPad() {
 		return _previousLilyPad;
 	}
 
-
-	//TODO 5: Create a getter method to get the previous lily pad
 }

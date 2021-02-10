@@ -16,7 +16,7 @@ import cs15.prj.leapFrogSupport.SeekerSupport;
  */
 public class Seeker extends SeekerSupport {
 
-	//TODO STEP 5: Create an association so the Seeker knows about the Hider
+	// instantiated an instance variable of Hider that the seeker knows about: association
 	private Hider _hider;
 
 	/**
@@ -43,7 +43,5 @@ public class Seeker extends SeekerSupport {
 		this.setCurrentLilyPad(_hider.getPreviousLilyPad());
 
 
-		//TODO STEP 5: Make the seeker move to its new lily pad position, which is the hider's
-		// PREVIOUS lily pad. Watch the demo for an example of how the seeker should follow.
 	}
 }
